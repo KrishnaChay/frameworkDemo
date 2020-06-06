@@ -15,6 +15,18 @@
             <url>https://github.com/KrishnaChay/</url>
         </developer>
     </developers>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     <properties>
         <selenium.webdriver.version>3.5.3</selenium.webdriver.version>
         <junit.version>4.12</junit.version>
